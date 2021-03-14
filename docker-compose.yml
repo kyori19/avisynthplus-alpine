@@ -1,0 +1,8 @@
+services:
+  avisynthplus:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args: 
+        version: 3.7.0
+    image: kyori/avisynthplus-alpine
